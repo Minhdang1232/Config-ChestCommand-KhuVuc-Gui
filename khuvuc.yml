@@ -1,0 +1,26 @@
+menu-settings:
+    name: '&1Menu Chọn Khu Vực'
+    rows: 3
+
+    commands:
+      - taxi
+      - khuvuc
+      - warp
+    auto-refresh: 5.0
+    open-actions:
+      - 'tell: &eĐã Mở Gui Chọn Khu Vực!'
+
+    open-with-item:
+        material: 
+        left-click: false
+        right-click: true
+thuynhan:
+    MATERIAL: iron_sword
+    POSITION-X: 1
+    POSITION-Y: 1
+    NAME: '&3 Khu Boss'
+    LORE: 
+    - ' Nhấn Vào Để Tới Khu Boss'
+    ACTIONS:
+      - 'tell: &eĐã Tới Khu: Boss'
+      - 'warps boss'
